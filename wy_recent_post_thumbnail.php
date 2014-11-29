@@ -89,11 +89,13 @@ class wy_recent_post_thumbnail extends WP_Widget {
 } 
 
 
+/* END CLASS wy_recent_post_thumbnail */
+
 # ADD STYLE
 wp_register_style('rcstyle', plugins_url('css/wy_recent_post_thumbnail_style.css',__FILE__));
 wp_enqueue_style( 'rcstyle');
 
 
-# RUN WIDGET
+# EXCUTE WIDGET
 add_action('widgets_init', create_function('', 'return register_widget("wy_recent_post_thumbnail");'));
 ?>

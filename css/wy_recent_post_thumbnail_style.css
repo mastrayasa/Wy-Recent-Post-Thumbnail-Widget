@@ -1,0 +1,17 @@
+ul.recent-post-thumb{
+	padding:0;
+}
+.recent-post-thumb li{
+	background:#fff;
+	padding:1px;
+	margin:15px 0;
+	width:96%;
+}
+.recent-post-thumb li div{
+	width:100%;
+	overflow:hidden;
+}
+.recent-post-thumb li div img{
+	background:#ff0;
+	width:100%;
+}
